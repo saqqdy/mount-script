@@ -1,7 +1,7 @@
 {
 	"name": "mount-script",
 	"description": "A simple function for mounting javascript",
-	"version": "1.0.0-alpha.2",
+	"version": "1.0.0",
 	"packageManager": "pnpm@8.5.1",
 	"main": "dist/mount-script.cjs.js",
 	"module": "dist/mount-script.esm-bundler.js",
