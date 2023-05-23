@@ -32,7 +32,7 @@ export interface JsOptions {
  * @param option - parameters: attrs, props, force
  * @returns - result
  */
-function mountScript(src: string, option: JsOptions): Promise<boolean> {
+function mountScript(src: string, option: JsOptions = {}): Promise<boolean> {
 	if (!src) throw new Error('[mountScript]: url is required')
 	const { attrs, props, force = false } = option
 	return new Promise((resolve, reject) => {

@@ -1,20 +1,20 @@
 {
 	"name": "mount-script",
 	"description": "A simple function for mounting javascript",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"packageManager": "pnpm@8.5.1",
-	"main": "dist/mount-script.cjs.js",
-	"module": "dist/mount-script.esm-bundler.js",
-	"browser": "dist/mount-script.esm-browser.js",
-	"unpkg": "dist/mount-script.global.js",
-	"jsdelivr": "dist/mount-script.global.js",
+	"main": "dist/index.cjs.js",
+	"module": "dist/index.esm-bundler.js",
+	"browser": "dist/index.esm-browser.js",
+	"unpkg": "dist/index.global.js",
+	"jsdelivr": "dist/index.global.js",
 	"types": "dist/index.d.ts",
 	"exports": {
 		".": {
 			"types": "./dist/index.d.ts",
-			"module": "./dist/mount-script.esm-bundler.js",
-			"require": "./dist/mount-script.cjs.js",
-			"import": "./dist/mount-script.mjs"
+			"module": "./dist/index.esm-bundler.js",
+			"require": "./dist/index.cjs.js",
+			"import": "./dist/index.mjs"
 		},
 		"./*": "./*"
 	},
